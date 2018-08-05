@@ -1,0 +1,42 @@
+[
+	{
+		"name": "recommenderessay1",
+		"text": "How long have you known the applicant?",
+		"klass": "question",
+		"kind": "textarea",
+		"width": 16,
+		"required": true
+	},
+	{
+		"name": "recommenderessay2",
+		"text": "In what capacity have you known the applicant?",
+		"klass": "question",
+		"kind": "textarea",
+		"width": 16,
+		"required": true
+	},
+	{
+		"name": "recommenderessay3",
+		"text": "If the applicant was a student in some of your classes, what were these subjects?",
+		"klass": "question",
+		"kind": "textarea",
+		"width": 16,
+		"required": true
+	},
+	{
+		"name": "recommenderessay4",
+		"text": "What do you  consider as the applicant's outstanding talents or strengths in realtion to gradute study?",
+		"klass": "question",
+		"kind": "textarea",
+		"width": 16,
+		"required": true
+	},
+	{
+		"name": "recommenderessay5",
+		"text": "What do you consider as his/her weakness or deficiencies in relation to graduate study?",
+		"klass": "question",
+		"kind": "textarea",
+		"width": 16,
+		"required": true
+	}
+]

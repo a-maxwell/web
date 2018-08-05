@@ -1,0 +1,67 @@
+<div ng-controller="lifetimeController">
+    <br/>
+    <h2 class="ui header">
+        <i class="calendar icon"></i>
+        <div class="content">
+            Set Lifetime of Form
+            <div class="sub header">Set when the application form is live</div>
+        </div>
+    </h2>
+
+    <div class="ui icon input">
+        <input type="text" ng-model="searchText" placeholder="Search Form">
+        <i class="search icon"></i>
+    </div>
+
+    <div class = "ui right floated buttons">
+        <a href="#!admin/manageform">
+            <div class="ui animated button" tabindex="0">
+                <div class="visible content">Back to Manage Forms Panel</div>
+                <div class="hidden content">
+                    <i class="right arrow icon"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <br><br><br>
+    <form>
+        <table class="ui selectable celled orange table">
+            <thead class="center aligned">
+            <tr>
+                <th>Forms</th>
+                <th>Start date</th>
+                <th>End date</th>
+            </tr>
+            </thead>
+            <tbody class="center aligned"
+                   ng-repeat="form in forms | filter:searchText">
+            <tr ng-init="period={date_start:form.date_start, date_end:form.date_end}"
+                ng-model-options="{ debounce: 2000}">
+                <td>{{ form.name }}</td>
+
+                <td>
+                    <datepicker ng-model="period.date_start"
+                                invalid="period.date_start>period.date_end"
+                                ng-change="updateForm(form, period)">
+
+                    </datepicker>
+                    <div>
+                        <span ng-show="period.date_start>period.date_end">Start date should be earlier than End date</span>
+                    </div>
+                </td>
+                <td>
+                    <datepicker ng-model="period.date_end"
+                                ng-change="updateForm(form, period)">
+
+                    </datepicker>
+                </td>
+            </tr>
+            <tr></tr>
+            </tbody>
+        </table>
+    </form>
+
+</div>
+
+ 

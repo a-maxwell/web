@@ -1,0 +1,23 @@
+<div class="ui vertical segment" ng-controller="categoryManagerController" ng-class="{loading: loading}">
+
+	<table class="ui celled table">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Date Created</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="category in categories track by category.id">
+				<td>{{category.name}}</td>
+				<td>-</td>
+				<td>-</td>
+				<td>{{category.date_created}}</td>
+				<td>-</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+		</tbody>
+	</table>
+
+</div>

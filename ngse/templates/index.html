@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>National Graduate School of Engineering</title>
+<script type="text/javascript" src="static/js/angular.js"></script>
+<script type="text/javascript" src="static/js/angular-route.min.js"></script>
+<script type="text/javascript" src="static/js/angular-cookies.min.js"></script>
+<script type="text/javascript" src="static/js/angular-semantic-ui.min.js"></script>
+<script type="text/javascript" src="static/js/jwt-decode.min.js"></script>
+<script type="text/javascript" src="static/js/jquery-3.1.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="static/css/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="static/css/calendar.min.css">
+<link rel="stylesheet" type="text/css" href="static/css/styles.css">
+
+</head>
+<body ng-app="NGSEApp">
+
+{% include 'header.html' %}
+{% include 'messages.html' %}
+
+<main class="ui raised vertical segment">
+	<div class="ui container">
+		<div ng-view></div>
+	</div>
+</main>
+
+
+{% include 'footer.html' %}
+
+</body>
+</html>

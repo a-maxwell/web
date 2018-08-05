@@ -1,0 +1,64 @@
+<div class="ui vertical segment" ng-controller='applicantManagerController' ng-class="{loading: loading}">
+
+	<h2 class="ui header">
+	<i class="tags icon"></i>
+	  <div class="content"> Tag Application Form </div>
+	</h2>
+
+	<div class="ui right labeled left icon input">
+	  <i class="tag icon"></i>
+	  <input type="text" ng-model="searchText" placeholder="Enter Applicant Name"/>
+	 	<a class="ui tag label">Add Tag</a>
+	</div>
+
+	<div class = "ui right floated buttons">
+        <a href="#!admin/manageform">
+            <div class="ui animated button" tabindex="0">
+                <div class="visible content">Back to Manage Forms Panel</div>
+                <div class="hidden content">
+                    <i class="right arrow icon"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+
+	<br><br><br>
+	<table class="ui selectable celled orange table">
+		<thead  class="center aligned">
+			<tr>
+				<th class = "seven wide" colspan="2">Application Form</th>
+				<th colspan="2" class ="">Status</th>
+			</tr>
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+                <th>Validation</th>
+                <th>Application</th>
+			</tr>
+		</thead>
+		<tbody class="center aligned" ng-repeat="applicant in applicants | filter:searchText">
+			<tr>
+				<td>{{applicant.name}}</td>
+				<td>{{applicant.email}}</td>
+				<td>
+                    <button class="ui button"
+                            ng-class="{'primary': applicant.validation_status == status}"
+                            ng-click = "setValidationStatus(applicant, status)"
+                            ng-repeat="status in validationStatusList">
+                        {{ status }}
+                    </button>
+				</td>
+                <td>
+                    <button class="ui button"
+                            ng-class="{'primary': applicant.application_status == status}"
+                            ng-click = "setApplicationStatus(applicant, status)"
+                            ng-repeat="status in applicationStatusList">
+                        {{ status }}
+                    </button>
+                </td>
+			</tr>
+			<tr></tr>
+		</tbody>
+	</table>
+
+</div>

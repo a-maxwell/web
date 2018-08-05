@@ -1,0 +1,67 @@
+<div class="ui vertical segment" ng-class="{loading: loading}" ng-controller="statController">
+
+    <div class = "ui right floated buttons">
+        <button class="ui green labeled icon button" ng-click="pdf()">
+            <i class="print icon"></i>
+                Export to PDF
+        </button>
+        <div class = "or"></div>
+        <a href="#!admin/manageform">
+            <div class="ui animated button" tabindex="0">
+                <div class="visible content">Back to Manage Forms Panel</div>
+                <div class="hidden content">
+                    <i class="right arrow icon"></i>
+                </div>
+            </div>
+        </a>
+    </div>    
+
+    <div id='pdfArea'>
+        <h1 class="ui header">
+            <i class="circular users icon icon"></i>
+            <div class="content">
+                Statistics 
+                    <div class="sub header">Summary of National Graduate School of Engineering Applicants.
+            </div>
+        </h1>
+
+        <br>
+        <table class="ui celled structured table">
+            <thead>
+            <tr class="center aligned">
+                <th rowspan="2">Total number of applicants</th>
+                <th colspan="2">Complete Application Forms</th>
+                <th rowspan="2">Incomplete Application Forms</th>
+            </tr>
+            <tr>
+                <th class="center aligned">Regular Forms</th>
+                <th class="center aligned">Applied for ERDT</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="center aligned">
+                <td>{{ total }}</td>
+                <td>{{ regularFormsCount }}</td>
+                <td>{{ erdtFormsCount }}</td>
+                <td>{{ incompleteFromsCount }}</td>
+            </tr>
+            </tbody>
+        </table>
+
+        <table class="ui celled structured table" ng-repeat="(applicationType, prorgams) in aTypes">
+            <thead class="center aligned">
+            <tr>
+                <th colspan="12">Percentage of Applicants who applied for {{ applicationType }}</th>
+            </tr>
+            <tr class="center aligned">
+                <th ng-repeat="(title, amount) in prorgams">{{ title }}</th>
+            </tr>
+            </thead>
+            <tbody class="center aligned">
+            <tr>
+                <td ng-repeat="(title, amount) in prorgams">{{ amount }}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

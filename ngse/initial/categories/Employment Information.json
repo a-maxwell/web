@@ -1,0 +1,373 @@
+[
+	{
+		"name": "curremploymentstatus",
+		"text": "Current Employment Status",
+		"klass": "question",
+		"kind": "dropdown",
+		"choices": ["Self-Employed", "Employed Full-Time", "Employed Part-Time", "Unemployed"],
+		"required": true
+	},
+	{
+		"name": "rule-1",
+		"text": "",
+		"klass": "decor",
+		"kind": "rule",
+		"width": 16
+	},
+	{
+		"name": "instructions1",
+		"text": "For Currently Employed Applicants (Full-Time/Part-Time)",
+		"klass": "decor",
+		"kind": "text",
+		"width": 16
+	},
+	{
+		"name": "curremployedposition",
+		"text": "Position",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "curremployedlengthofservice",
+		"text": "Length of Service",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "curremployedcompanyname",
+		"text": "Company Name",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "curremployedcompanytelenum",
+		"text": "Telephone Number",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "curremployedofficeaddr",
+		"text": "Office Address",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "curremployedfaxnum",
+		"text": "Fax Number",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "curremployedcompanyemail",
+		"text": "E-mail Address",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "curremployedcompanywebsite",
+		"text": "Company Website",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "rule-2",
+		"text": "",
+		"klass": "decor",
+		"kind": "rule",
+		"width": 16
+	},
+	{
+		"name": "instructions2",
+		"text": "For Self Employed Applicants",
+		"klass": "decor",
+		"kind": "text",
+		"width": 16
+	},
+	{
+		"name": "selfemployedbusinessname",
+		"text": "Business Name",
+		"klass": "question",
+		"kind": "text",
+		"width": 16,
+		"required": false
+	},
+	{
+		"name": "selfemployedbusinessaddress",
+		"text": "Business Address",
+		"klass": "question",
+		"kind": "text",
+		"width": 16,
+		"required": false
+	},
+	{
+		"name": "selfemployedbusinessemail",
+		"text": "Email",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "selfemployedbusinesswebsite",
+		"text": "Website",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "selfemployedbusinesstype",
+		"text": "Type of Business",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "selfemployedyearsofoper",
+		"text": "Years of Operation",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "selfemployedbusinesstelnum",
+		"text": "Telephone Number",
+		"klass": "question",
+		"kind": "text",
+		"width": 16,
+		"required": false
+	},
+	{
+		"name": "rule-3",
+		"text": "",
+		"klass": "decor",
+		"kind": "rule",
+		"width": 16
+	},
+	{
+		"name": "instructions3",
+		"text": "Employment History",
+		"klass": "decor",
+		"kind": "text",
+		"width": 16
+	},
+	{
+		"name": "employmenthistoryperiodfrom1",
+		"text": "From (MM/YYYY)",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryperiodto1",
+		"text": "To (MM/YYYY)",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryfullorparttime1",
+		"text": "Full/Part-Time",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistorynameofemployer1",
+		"text": "Name of Employer",
+		"klass": "question",
+		"kind": "text",
+		"width": 5,
+		"required": false
+	},
+	{
+		"name": "employmenthistorytitleorposition1",
+		"text": "Title/Position",
+		"klass": "question",
+		"kind": "text",
+		"width": 5,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryperiodfrom2",
+		"text": "From (MM/YYYY)",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryperiodto2",
+		"text": "To (MM/YYYY)",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryfullorparttime2",
+		"text": "Full/Part-Time",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistorynameofemployer2",
+		"text": "Name of Employer",
+		"klass": "question",
+		"kind": "text",
+		"width": 5,
+		"required": false
+	},
+	{
+		"name": "employmenthistorytitleorposition2",
+		"text": "Title/Position",
+		"klass": "question",
+		"kind": "text",
+		"width": 5,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryperiodfrom3",
+		"text": "From (MM/YYYY)",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryperiodto3",
+		"text": "To (MM/YYYY)",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryfullorparttime3",
+		"text": "Full/Part-Time",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistorynameofemployer3",
+		"text": "Name of Employer",
+		"klass": "question",
+		"kind": "text",
+		"width": 5,
+		"required": false
+	},
+	{
+		"name": "employmenthistorytitleorposition3",
+		"text": "Title/Position",
+		"klass": "question",
+		"kind": "text",
+		"width": 5,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryperiodfrom4",
+		"text": "From (MM/YYYY)",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryperiodto4",
+		"text": "To (MM/YYYY)",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryfullorparttime4",
+		"text": "Full/Part-Time",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistorynameofemployer4",
+		"text": "Name of Employer",
+		"klass": "question",
+		"kind": "text",
+		"width": 5,
+		"required": false
+	},
+	{
+		"name": "employmenthistorytitleorposition4",
+		"text": "Title/Position",
+		"klass": "question",
+		"kind": "text",
+		"width": 5,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryperiodfrom5",
+		"text": "From (MM/YYYY)",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryperiodto5",
+		"text": "To (MM/YYYY)",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistoryfullorparttime5",
+		"text": "Full/Part-Time",
+		"klass": "question",
+		"kind": "text",
+		"width": 2,
+		"required": false
+	},
+	{
+		"name": "employmenthistorynameofemployer5",
+		"text": "Name of Employer",
+		"klass": "question",
+		"kind": "text",
+		"width": 5,
+		"required": false
+	},
+	{
+		"name": "employmenthistorytitleorposition5",
+		"text": "Title/Position",
+		"klass": "question",
+		"kind": "text",
+		"width": 5,
+		"required": false
+	}
+	
+]

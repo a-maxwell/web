@@ -1,0 +1,203 @@
+[
+	
+	{
+		"name": "instructions",
+		"text": "This section is required for MS & PhD CS applicants; optional/additional qualification for the others. You may opt to enter less than 5 Programming Languages and 5 Projects. Press the save button once you are done filling up this page.",
+		"klass": "decor",
+		"kind": "text",
+		"width": 16
+	},
+	{
+		"name": "rule-1",
+		"text": "",
+		"klass": "decor",
+		"kind": "rule",
+		"width": 16
+	},
+	{
+		"name": "instructions1",
+		"text": "List the programming languages (e.g. C, C++, Java) you are proficient in.",
+		"klass": "decor",
+		"kind": "text",
+		"width": 16
+	},
+	{
+		"name": "lang1",
+		"text": "Programming Language ",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": true
+	},
+	{
+		"name": "prof1",
+		"text": "Level of Proficiency",
+		"klass": "question",
+		"kind": "dropdown",
+		"choices": ["1","2","3","4","5"],
+		"width": 8,
+		"required": true
+	},
+	{
+		"name": "lang2",
+		"text": "Programming Language",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "prof2",
+		"text": "Level of Proficiency",
+		"klass": "question",
+		"kind": "dropdown",
+		"choices": ["1","2","3","4","5"],
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "lang3",
+		"text": "Programming Language",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "prof3",
+		"text": "Level of Proficiency",
+		"klass": "question",
+		"kind": "dropdown",
+		"choices": ["1","2","3","4","5"],
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "lang4",
+		"text": "Programming Language",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "prof4",
+		"text": "Level of Proficiency",
+		"klass": "question",
+		"kind": "dropdown",
+		"choices": ["1","2","3","4","5"],
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "lang5",
+		"text": "Programming Language",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "prof5",
+		"text": "Level of Proficiency",
+		"klass": "question",
+		"kind": "dropdown",
+		"width": 8,
+		"choices": ["1","2","3","4","5"],
+		"required": false
+	},
+	{
+		"name": "rule-2",
+		"text": "",
+		"klass": "decor",
+		"kind": "rule",
+		"width": 16
+	},
+	{
+		"name": "instructions2",
+		"text": "List the projects/applications completed and the languages used in doing these projects.",
+		"klass": "decor",
+		"kind": "text",
+		"width": 16
+	},
+	{
+		"name": "proj1",
+		"text": "Title/Name of Project/Application",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "projlang1",
+		"text": "Programming Language(s) Used",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "proj2",
+		"text": "Title/Name of Project/Application",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "projlang2",
+		"text": "Programming Language(s) Used",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "proj3",
+		"text": "Title/Name of Project/Application",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "projlang3",
+		"text": "Programming Language(s) Used",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "proj4",
+		"text": "Title/Name of Project/Application",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "projlang4",
+		"text": "Programming Language(s) Used",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "proj5",
+		"text": "Title/Name of Project/Application",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	},
+	{
+		"name": "projlang5",
+		"text": "Programming Language(s) Used",
+		"klass": "question",
+		"kind": "text",
+		"width": 8,
+		"required": false
+	}
+]
